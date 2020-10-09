@@ -27,8 +27,10 @@ namespace AppPrehledUdalosti
                                           );
 
 
-      // Mala zmena
+      // Mala zmena 1
       int i = 5;
+      // Mala zmena 1
+      int i2 = 10;
     }
   }
 }
