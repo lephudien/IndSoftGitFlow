@@ -25,6 +25,10 @@ namespace AppPrehledUdalosti
       System.Windows.Forms.MessageBox.Show($"AppPrehledUdalosti Ver={fvi.FileVersion}{Environment.NewLine}" +
                                           $"{Environment.NewLine}Using {LibUdalostiCore.UdalostiCore.GetMyVersion()}"
                                           );
+
+
+      // Mala zmena
+      int i = 5;
     }
   }
 }
