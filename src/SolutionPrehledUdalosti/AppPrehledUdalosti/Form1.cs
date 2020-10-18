@@ -22,9 +22,9 @@ namespace AppPrehledUdalosti
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      System.Windows.Forms.MessageBox.Show($"AppPrehledUdalosti Ver={fvi.FileVersion}{Environment.NewLine}" +
-                                          $"{Environment.NewLine}Using {LibUdalostiCore.UdalostiCore.GetMyVersion()}" +
-                                          $"{Environment.NewLine}BrachName: " + "master");
+      string sBranch = "master";
+      System.Windows.Forms.MessageBox.Show($"AppPrehledUdalosti Ver={fvi.FileVersion} BrachName: {sBranch}" +
+                                          $"{Environment.NewLine}Using {LibUdalostiCore.UdalostiCore.GetMyVersion()}");
 
 
       // Mala zmena 1
