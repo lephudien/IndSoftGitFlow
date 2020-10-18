@@ -16,7 +16,7 @@ namespace LibUdalostiCore
 
       Version version = Assembly.GetAssembly(typeof(System.Data.SqlClient.SqlAuthenticationMethod)).GetName().Version;
 
-      string sBranch = "master";
+      string sBranch = "dev01_NTB";
       return $"LibUdalostiCore Ver={fvi.FileVersion} BrachName: {sBranch}" +
             $"{Environment.NewLine}Using EXTERNAL MSSQLClientVer {version.ToString()}";
     }
