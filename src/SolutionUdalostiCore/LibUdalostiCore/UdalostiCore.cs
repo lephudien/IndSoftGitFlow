@@ -26,6 +26,9 @@ namespace LibUdalostiCore
       if (sConnectString.Contains("MSSQL"))
         return true;
 
+      // Test local commit 1
+      int lTest1 = 1;
+
       return false;
     }
   }
