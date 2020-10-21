@@ -29,6 +29,9 @@ namespace LibUdalostiCore
       // Test local commit 1
       int lTest1 = 1;
 
+      // Test local commit 2
+      int lTest2 = 2;
+
       return false;
     }
   }
